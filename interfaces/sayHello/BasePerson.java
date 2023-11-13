@@ -2,7 +2,7 @@ package javaOOP.JavaOOP.interfaces.sayHello;
 
 public abstract class BasePerson implements Person {
 
-    String name;
+    private String name;
 
     public BasePerson(String name) {
         this.name = name;
