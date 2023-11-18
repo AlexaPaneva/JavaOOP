@@ -1,12 +1,14 @@
 package javaOOP.JavaOOP.polyporphism.shapes;
 
-public class Rectangles extends Shape {
-    private double height;
-    private double width;
+public class Rectangle extends Shape {
+    private Double height;
+    private Double width;
 
-    public Rectangles(double height, double width) {
+    public Rectangle(Double height, Double width) {
         this.height = height;
         this.width = width;
+        super.setArea(this.calculateArea());
+        super.setPerimeter(this.calculatePerimeter());
     }
 
     public double getHeight() {
