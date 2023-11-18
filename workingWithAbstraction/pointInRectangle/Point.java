@@ -1,4 +1,4 @@
-package oop.workingWithAbstraction.pointInRectangle;
+package javaOOP.JavaOOP.workingWithAbstraction.pointInRectangle;
 
 public class Point {
     private int x;

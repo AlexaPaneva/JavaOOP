@@ -1,8 +1,8 @@
 package javaOOP.JavaOOP.polyporphism.shapes;
 
 public abstract class Shape {
-    private double perimeter;
-    private double area;
+    private Double perimeter;
+    private Double area;
 
     public double getPerimeter() {
         return perimeter;
