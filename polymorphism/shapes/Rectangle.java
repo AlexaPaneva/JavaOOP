@@ -1,4 +1,4 @@
-package javaOOP.JavaOOP.polyporphism.shapes;
+package javaOOP.JavaOOP.polymorphism.shapes;
 
 public class Rectangle extends Shape {
     private Double height;

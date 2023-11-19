@@ -1,4 +1,4 @@
-package javaOOP.JavaOOP.polyporphism.mathOperations;
+package javaOOP.JavaOOP.polymorphism.mathOperations;
 
 public class Main {
     public static void main(String[] args) {
